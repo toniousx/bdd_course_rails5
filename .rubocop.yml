@@ -6,6 +6,7 @@ AllCops:
   Exclude:
     - bin/update
     - bin/setup
+    - bin/bundle
 
 Metrics/LineLength:
   Max: 120
