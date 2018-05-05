@@ -1,24 +1,11 @@
-# README
+## Process of creating articles, feature test and feature
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- create a feature branch
+- Write feature test
+- Build features to make test pass one by one
+- refactor and check syntax with rubocop
+- check pending tests with Spec coverage
+- check code smell and OOP design with reek
+- Once all tests are green, spec coverage close to 100% and we are happy about our OOD ask for code review if it's possible and when it's fine, merge to master.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
