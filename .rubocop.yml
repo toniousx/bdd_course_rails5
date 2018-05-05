@@ -1,0 +1,14 @@
+require: rubocop-rspec
+
+AllCops:
+  DisplayCopNames: true
+
+  Exclude:
+    - bin/update
+    - bin/setup
+
+Metrics/LineLength:
+  Max: 120
+
+RSpec/MultipleExpectations:
+  Max: 2
