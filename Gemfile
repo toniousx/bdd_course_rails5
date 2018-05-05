@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 group :test do
   # capybara
   gem 'capybara'
+  gem 'rubocop', require: false
 end
 
 group :development, :test do
