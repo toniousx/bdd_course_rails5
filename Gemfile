@@ -51,6 +51,7 @@ group :development, :test do
   gem 'guard', '~>2.14.2'
   gem 'guard-cucumber', '~>2.1.1'
   gem 'guard-rspec', '~>4.7.3'
+  gem 'guard-rubocop'
 end
 
 group :development do
