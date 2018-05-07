@@ -7,9 +7,22 @@ AllCops:
     - bin/update
     - bin/setup
     - bin/bundle
+    - Guardfile
 
 Metrics/LineLength:
   Max: 120
 
 RSpec/MultipleExpectations:
   Max: 2
+
+Style/Documentation:
+  Exclude:
+    - db/migrate/*
+
+RSpec/DescribeClass:
+  Exclude:
+    - spec/features/creating_article_spec.rb
+
+RSpec/ExampleLength:
+  Exclude:
+  - spec/features/creating_article_spec.rb
