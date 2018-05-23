@@ -13,7 +13,7 @@ Metrics/LineLength:
   Max: 120
 
 RSpec/MultipleExpectations:
-  Max: 2
+  Max: 3
 
 Style/Documentation:
   Exclude:
@@ -26,3 +26,6 @@ RSpec/DescribeClass:
 RSpec/ExampleLength:
   Exclude:
   - spec/features/creating_article_spec.rb
+
+Style/Documentation:
+  Enabled: false
